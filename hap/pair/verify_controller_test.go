@@ -1,9 +1,9 @@
 package pair
 
 import (
-	"github.com/brutella/hc/db"
-	"github.com/brutella/hc/hap"
-	"github.com/brutella/hc/util"
+	"github.com/grumpylabs/hcf/db"
+	"github.com/grumpylabs/hcf/hap"
+	"github.com/grumpylabs/hcf/util"
 	"testing"
 )
 

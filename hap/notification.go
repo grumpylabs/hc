@@ -3,9 +3,9 @@ package hap
 import (
 	"bytes"
 	"encoding/json"
-	"github.com/brutella/hc/accessory"
-	"github.com/brutella/hc/characteristic"
-	"github.com/brutella/hc/hap/data"
+	"github.com/grumpylabs/hcf/accessory"
+	"github.com/grumpylabs/hcf/characteristic"
+	"github.com/grumpylabs/hcf/hap/data"
 	"io/ioutil"
 	"net/http"
 	"strings"

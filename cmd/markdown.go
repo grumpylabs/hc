@@ -6,8 +6,8 @@ package main
 
 import (
 	"encoding/json"
-	"github.com/brutella/hc/gen"
-	"github.com/brutella/hc/gen/markdown"
+	"github.com/grumpylabs/hcf/gen"
+	"github.com/grumpylabs/hcf/gen/markdown"
 	"io/ioutil"
 	"log"
 	"os"

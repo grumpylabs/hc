@@ -2,7 +2,7 @@
 package service
 
 import (
-	"github.com/brutella/hc/characteristic"
+	"github.com/grumpylabs/hcf/characteristic"
 )
 
 const TypeWindowCovering = "8C"

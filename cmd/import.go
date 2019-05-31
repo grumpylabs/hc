@@ -10,8 +10,8 @@ package main
 
 import (
 	"encoding/json"
-	"github.com/brutella/hc/gen"
-	"github.com/brutella/hc/gen/golang"
+	"github.com/grumpylabs/hcf/gen"
+	"github.com/grumpylabs/hcf/gen/golang"
 	"io/ioutil"
 	"log"
 	"os"

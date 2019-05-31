@@ -2,10 +2,10 @@ package main
 
 import (
 	"fmt"
-	"github.com/brutella/hc/db"
-	"github.com/brutella/hc/hap"
-	"github.com/brutella/hc/hap/pair"
-	"github.com/brutella/hc/log"
+	"github.com/grumpylabs/hcf/db"
+	"github.com/grumpylabs/hcf/hap"
+	"github.com/grumpylabs/hcf/hap/pair"
+	"github.com/grumpylabs/hcf/log"
 	"io"
 	"net/http"
 )

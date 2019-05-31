@@ -1,7 +1,7 @@
 package golang
 
 import (
-	"github.com/brutella/hc/gen"
+	"github.com/grumpylabs/hcf/gen"
 	"os"
 	"path/filepath"
 )

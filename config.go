@@ -6,7 +6,7 @@ import (
 	"net"
 	"reflect"
 
-	"github.com/brutella/hc/util"
+	"github.com/grumpylabs/hcf/util"
 	"github.com/gosexy/to"
 )
 
