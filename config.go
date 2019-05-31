@@ -1,4 +1,4 @@
-package hc
+package hcf
 
 import (
 	"errors"
@@ -6,8 +6,8 @@ import (
 	"net"
 	"reflect"
 
-	"github.com/grumpylabs/hcf/util"
 	"github.com/gosexy/to"
+	"github.com/grumpylabs/hcf/util"
 )
 
 // Config provides  basic cfguration for an IP transport

@@ -1,9 +1,10 @@
-package hc
+package hcf
 
 import (
-	"github.com/grumpylabs/hcf/util"
 	"reflect"
 	"testing"
+
+	"github.com/grumpylabs/hcf/util"
 )
 
 var config = &Config{

@@ -1,4 +1,4 @@
-package hc
+package hcf
 
 import (
 	"bytes"
@@ -9,6 +9,7 @@ import (
 	"sync"
 
 	"github.com/brutella/dnssd"
+	"github.com/gosexy/to"
 	"github.com/grumpylabs/hcf/accessory"
 	"github.com/grumpylabs/hcf/characteristic"
 	"github.com/grumpylabs/hcf/db"
@@ -18,7 +19,6 @@ import (
 	"github.com/grumpylabs/hcf/hap/http"
 	"github.com/grumpylabs/hcf/log"
 	"github.com/grumpylabs/hcf/util"
-	"github.com/gosexy/to"
 
 	"image"
 )
