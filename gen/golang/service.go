@@ -48,7 +48,7 @@ type Service struct {
 	Name          string // Name of the service (e.g. Light bulb)
 	StructName    string // Name of the struct (e.g. Lightbulb)
 	FileName      string // Name of the file (e.g. lightbulb.go)
-	LocalFilePath string // Path to the file (e.g. ~/User/Go/src/github.com/brutella/hc/service/lightbulb.go)
+	LocalFilePath string // Path to the file (e.g. ~/User/Go/src/github.com/grumpylabs/hcf/service/lightbulb.go)
 	RelFilePath   string // Relative path to the file from the project root (e.g. service/lightbulb.go)
 	TypeName      string // Name of type e.g. TypeLightbulb
 	TypeValue     string // Value of the type e.g. 00000008-0000-1000-8000-0026BB765291
