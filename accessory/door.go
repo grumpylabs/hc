@@ -1,9 +1,10 @@
 package accessory
 
 import (
-	"github.com/brutella/hc/service"
+	"github.com/grumpylabs/hcf/service"
 )
 
+// Door represents the Door type accessory
 type Door struct {
 	*Accessory
 	Door *service.Door
