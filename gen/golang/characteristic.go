@@ -10,8 +10,8 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/brutella/hc/characteristic"
-	"github.com/brutella/hc/gen"
+	"github.com/grumpylabs/hcf/characteristic"
+	"github.com/grumpylabs/hcf/gen"
 )
 
 // CharStructTemplate is template for a characteristic struct.

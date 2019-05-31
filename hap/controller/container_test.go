@@ -1,7 +1,7 @@
 package controller
 
 import (
-	"github.com/brutella/hc/accessory"
+	"github.com/grumpylabs/hcf/accessory"
 
 	"bytes"
 	"encoding/json"

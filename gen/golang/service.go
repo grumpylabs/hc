@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"text/template"
 
-	"github.com/brutella/hc/gen"
+	"github.com/grumpylabs/hcf/gen"
 )
 
 // ServiceStructTemplate is template for a service struct.
@@ -13,7 +13,7 @@ const ServiceStructTemplate = `// THIS FILE IS AUTO-GENERATED
 package service
 
 import (
-	"github.com/brutella/hc/characteristic"
+	"github.com/grumpylabs/hcf/characteristic"
 )
 
 const {{.TypeName}} = "{{.TypeValue}}"

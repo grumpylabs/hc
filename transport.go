@@ -1,4 +1,4 @@
-package hc
+package hcf
 
 // Transport provides accessories over a network.
 type Transport interface {

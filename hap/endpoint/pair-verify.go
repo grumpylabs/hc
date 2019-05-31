@@ -1,12 +1,12 @@
 package endpoint
 
 import (
-	"github.com/brutella/hc/crypto"
-	"github.com/brutella/hc/db"
-	"github.com/brutella/hc/hap"
-	"github.com/brutella/hc/hap/pair"
-	"github.com/brutella/hc/log"
-	"github.com/brutella/hc/util"
+	"github.com/grumpylabs/hcf/crypto"
+	"github.com/grumpylabs/hcf/db"
+	"github.com/grumpylabs/hcf/hap"
+	"github.com/grumpylabs/hcf/hap/pair"
+	"github.com/grumpylabs/hcf/log"
+	"github.com/grumpylabs/hcf/util"
 
 	"io"
 	"net/http"

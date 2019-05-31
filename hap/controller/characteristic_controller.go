@@ -1,11 +1,11 @@
 package controller
 
 import (
-	"github.com/brutella/hc/accessory"
-	"github.com/brutella/hc/characteristic"
-	"github.com/brutella/hc/hap"
-	"github.com/brutella/hc/hap/data"
-	"github.com/brutella/hc/log"
+	"github.com/grumpylabs/hcf/accessory"
+	"github.com/grumpylabs/hcf/characteristic"
+	"github.com/grumpylabs/hcf/hap"
+	"github.com/grumpylabs/hcf/hap/data"
+	"github.com/grumpylabs/hcf/log"
 	"github.com/gosexy/to"
 
 	"bytes"

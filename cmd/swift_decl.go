@@ -7,16 +7,22 @@ package main
 
 import (
 	"encoding/json"
-	"github.com/brutella/hc/gen"
-	"github.com/brutella/hc/gen/swift"
 	"io/ioutil"
 	"log"
 	"os"
 	"path/filepath"
+
+	"github.com/grumpylabs/hcf/gen"
+	"github.com/grumpylabs/hcf/gen/swift"
 )
 
-var LibPath = os.ExpandEnv("$GOPATH/src/github.com/brutella/hc")
+// LibPath is the location of the top directory
+var LibPath = os.ExpandEnv("$GOPATH/src/github.com/grumpylabs/hcf")
+
+// GenPath is relative to the LibPath and has the gen files
 var GenPath = filepath.Join(LibPath, "gen")
+
+// MetadataPath is the relative to LibPath JSON file that contains the output from plutil.
 var MetadataPath = filepath.Join(GenPath, "metadata.json")
 
 func main() {

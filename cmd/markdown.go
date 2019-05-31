@@ -6,18 +6,28 @@ package main
 
 import (
 	"encoding/json"
-	"github.com/brutella/hc/gen"
-	"github.com/brutella/hc/gen/markdown"
 	"io/ioutil"
 	"log"
 	"os"
 	"path/filepath"
+
+	"github.com/grumpylabs/hcf/gen"
+	"github.com/grumpylabs/hcf/gen/markdown"
 )
 
-var LibPath = os.ExpandEnv("$GOPATH/src/github.com/brutella/hc")
-var GenPath = filepath.Join(LibPath, "gen")
+// LibPath is the location of the top directory
+var LibPath = os.ExpandEnv("$GOPATH/src/github.com/grumpylabs/hcf")
+
+// MetadataPath is the relative to LibPath JSON file that contains the output from plutil.
 var MetadataPath = filepath.Join(GenPath, "metadata.json")
+
+// GenPath is relative to the LibPath and has the gen files
+var GenPath = filepath.Join(LibPath, "gen")
+
+// SvcFilePath is where we will plop the service markdown
 var SvcFilePath = filepath.Join(LibPath, "service/README.md")
+
+// AccFilePath is where we will plop the accessory markdown
 var AccFilePath = filepath.Join(LibPath, "accessory/README.md")
 
 func main() {

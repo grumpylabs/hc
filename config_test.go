@@ -1,9 +1,10 @@
-package hc
+package hcf
 
 import (
-	"github.com/brutella/hc/util"
 	"reflect"
 	"testing"
+
+	"github.com/grumpylabs/hcf/util"
 )
 
 var config = &Config{

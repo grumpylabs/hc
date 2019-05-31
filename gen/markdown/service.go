@@ -2,8 +2,8 @@ package markdown
 
 import (
 	"bytes"
-	"github.com/brutella/hc/gen"
-	"github.com/brutella/hc/gen/golang"
+	"github.com/grumpylabs/hcf/gen"
+	"github.com/grumpylabs/hcf/gen/golang"
 	"text/template"
 )
 

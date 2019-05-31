@@ -1,4 +1,4 @@
-package hc
+package hcf
 
 import (
 	"bytes"
@@ -9,16 +9,16 @@ import (
 	"sync"
 
 	"github.com/brutella/dnssd"
-	"github.com/brutella/hc/accessory"
-	"github.com/brutella/hc/characteristic"
-	"github.com/brutella/hc/db"
-	"github.com/brutella/hc/event"
-	"github.com/brutella/hc/hap"
-	"github.com/brutella/hc/hap/endpoint"
-	"github.com/brutella/hc/hap/http"
-	"github.com/brutella/hc/log"
-	"github.com/brutella/hc/util"
 	"github.com/gosexy/to"
+	"github.com/grumpylabs/hcf/accessory"
+	"github.com/grumpylabs/hcf/characteristic"
+	"github.com/grumpylabs/hcf/db"
+	"github.com/grumpylabs/hcf/event"
+	"github.com/grumpylabs/hcf/hap"
+	"github.com/grumpylabs/hcf/hap/endpoint"
+	"github.com/grumpylabs/hcf/hap/http"
+	"github.com/grumpylabs/hcf/log"
+	"github.com/grumpylabs/hcf/util"
 
 	"image"
 )

@@ -2,7 +2,7 @@
 package service
 
 import (
-	"github.com/brutella/hc/characteristic"
+	"github.com/grumpylabs/hcf/characteristic"
 )
 
 const TypeFanV2 = "B7"

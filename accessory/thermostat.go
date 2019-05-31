@@ -1,7 +1,7 @@
 package accessory
 
 import (
-	"github.com/brutella/hc/service"
+	"github.com/grumpylabs/hcf/service"
 )
 
 type Thermostat struct {

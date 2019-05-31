@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/brutella/hc"
-	"github.com/brutella/hc/accessory"
-	"github.com/brutella/hc/log"
+	"github.com/grumpylabs/hcf"
+	"github.com/grumpylabs/hcf/accessory"
+	"github.com/grumpylabs/hcf/log"
 
 	"time"
 )
