@@ -5,26 +5,38 @@
 //
 // The metadata file is created by running the following command on OS X
 //
-//     plutil -convert json -r -o $GOPATH/src/github.com/brutella/hc/gen/metadata.json /Applications/HomeKit\ Accessory\ Simulator.app/Contents/Frameworks/HAPAccessoryKit.framework/Versions/A/Resources/default.metadata.plist
+//     plutil -convert json -r -o $GOPATH/src/github.com/grumpylabs/hcf/gen/metadata.json /Applications/HomeKit\ Accessory\ Simulator.app/Contents/Frameworks/HAPAccessoryKit.framework/Versions/A/Resources/default.metadata.plist
 package main
 
 import (
 	"encoding/json"
-	"github.com/grumpylabs/hcf/gen"
-	"github.com/grumpylabs/hcf/gen/golang"
 	"io/ioutil"
 	"log"
 	"os"
 	"os/exec"
 	"path/filepath"
+
+	"github.com/grumpylabs/hcf/gen"
+	"github.com/grumpylabs/hcf/gen/golang"
 )
 
-var LibPath = os.ExpandEnv("$GOPATH/src/github.com/brutella/hc")
-var GenPath = filepath.Join(LibPath, "gen")
-var SvcPkgPath = filepath.Join(LibPath, "service")
-var AccPkgPath = filepath.Join(LibPath, "accessory")
-var CharPkgPath = filepath.Join(LibPath, "characteristic")
+// LibPath is the location of the top directory
+var LibPath = os.ExpandEnv("$GOPATH/src/github.com/grumpylabs/hcf")
+
+// MetadataPath is the relative to LibPath JSON file that contains the output from plutil.
 var MetadataPath = filepath.Join(GenPath, "metadata.json")
+
+// GenPath is relative to the LibPath and has the gen files
+var GenPath = filepath.Join(LibPath, "gen")
+
+// SvcPkgPath is the relative to LibPath directory that should hold the service generatded files
+var SvcPkgPath = filepath.Join(LibPath, "service")
+
+// CharPkgPath is the relative to LibPath directory that should hold the service charateristic files
+var CharPkgPath = filepath.Join(LibPath, "characteristic")
+
+// AccPkgPath is the relative to LibPath directory that should hold the accessory files
+var AccPkgPath = filepath.Join(LibPath, "accessory")
 
 func main() {
 
