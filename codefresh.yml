@@ -4,7 +4,7 @@ steps:
     title: Cloning main repository...
     type: git-clone
     repo: 'grumpylabs/hcf'
-    revision: master
+    revision: develop
     git: github
   DockerImage:
     title: Building Docker Image
