@@ -1,14 +1,19 @@
 version: '1.0'
+stages:
+  - prepare
+  - build
 steps:
   main_clone:
     title: Cloning main repository...
     type: git-clone
     repo: 'grumpylabs/hcf'
-    revision: develop
+    revision: '${{CF_REVISION}}'
     git: github
+    stage: prepare
   DockerImage:
     title: Building Docker Image
     type: build
+    stage: build
     image_name: hcf-image
     working_directory: ./
     tag: full
